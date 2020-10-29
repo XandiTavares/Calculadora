@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./imagens/calculadora.png" type="imagen/png" />
+    <script src="./js/calculo.js"> </script>
+</head>
+
+<body class="corpo">
+    <div>
+        <h1 id="titulo">Calculadora</h1>
+        <div id="numeros">
+            <form name="calc">
+                <input id="visor" type="text" name="visor" /> <br>
+                <input id="cancela" type="button" value="C" onclick="reset()" /> <br>
+                <input id="button" type="button" value="7" onclick="calculo(value)" />
+                <input id="button" type="button" value="8" onclick="calculo(value)" />
+                <input id="button" type="button" value="9" onclick="calculo(value)" />
+                <input id="button" type="button" value="/" onclick="calculo(value)" /> <br>
+                <input id="button" type="button" value="4" onclick="calculo(value)" />
+                <input id="button" type="button" value="5" onclick="calculo(value)" />
+                <input id="button" type="button" value="6" onclick="calculo(value)" />
+                <input id="button" type="button" value="*" onclick="calculo(value)" /> <br>
+                <input id="button" type="button" value="1" onclick="calculo(value)" />
+                <input id="button" type="button" value="2" onclick="calculo(value)" />
+                <input id="button" type="button" value="3" onclick="calculo(value)" />
+                <input id="button" type="button" value="-" onclick="calculo(value)" /> <br>
+                <input id="button" type="button" value="0" onclick="calculo(value)" />
+                <input id="button" type="button" value="=" onclick="resul(value)" />
+                <input id="button" type="button" value="." onclick="calculo(value)" />
+                <input id="button" type="button" value="+" onclick="calculo(value)" />
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
